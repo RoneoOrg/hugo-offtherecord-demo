@@ -36,7 +36,7 @@ window.onload = function () {
                             findAllMatches: params.fuseOpts.findallmatches ? params.fuseOpts.findallmatches : false,
                             keys: params.fuseOpts.keys ? params.fuseOpts.keys : ['title', 'permalink', 'summary', 'content'],
                             location: params.fuseOpts.location ? params.fuseOpts.location : 0,
-                            threshold: params.fuseOpts.threshold ? params.fuseOpts.threshold : 0.4,
+                            threshold: params.fuseOpts.threshold ? params.fuseOpts.threshold : 0,
                             distance: params.fuseOpts.distance ? params.fuseOpts.distance : 100,
                             ignoreLocation: params.fuseOpts.ignorelocation ? params.fuseOpts.ignorelocation : true
                         }
