@@ -186,6 +186,17 @@ params:
     #     minMatchCharLength: 0
     #     keys: ["title", "permalink", "summary", "content"]
 
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: source
+      name: Source
+      url: https://roneo.org/en/hugo-hidden-posts/
+      weight: 10
+
 taxonomies:
     # category: categories
     # tag: tags
