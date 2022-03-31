@@ -1,0 +1,3 @@
+[submodule "themes/hugo-PaperMod"]
+	path = themes/hugo-PaperMod
+	url = git@github.com:RoneoOrg/hugo-theme-offTheRecord.git
