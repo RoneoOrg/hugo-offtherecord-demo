@@ -100,7 +100,7 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: ""
+    description: "Publish hidden posts with this Hugo theme"
     # author:
     # author: ["Me", "You"] # multiple authors
     hidemeta: true
