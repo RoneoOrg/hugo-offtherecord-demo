@@ -1,5 +1,5 @@
 baseURL: "/"
-title: "off /"
+title: "Hugo / off"
 paginate: 20
 theme: hugo-PaperMod
 
@@ -100,8 +100,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "off/"
-    author: Wesk
+    description: ""
+    # author:
     # author: ["Me", "You"] # multiple authors
     hidemeta: true
     hideSummary: true
@@ -133,15 +133,15 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "/ Off"
-        # Content: >
-        #     Welcome to demo of hugo's theme PaperMod.
+        Title: "Hugo theme \"Off The Record\""
+        Content: >
+            ### Publish hidden posts with Hugo.
 
-        #     - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+            -
 
-        #     - Do give a 🌟 on Github !
+            - This demo includes two public posts below but also hides [another post](waldo), visible only for visitors possessing the secret URL.
 
-        #     - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+            - See [the documentation](https://roneo.org/en/hugo-hidden-posts/) for details
 
     socialIcons:
         # - name: github
