@@ -1,5 +1,5 @@
 baseURL: "/"
-title: "Hugo / off"
+title: "🔥"
 paginate: 20
 theme: hugo-PaperMod
 
@@ -133,13 +133,15 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "Hugo theme \"Off The Record\""
+        Title: "Hugo theme \"Off the Record\""
         Content: >
             ### Publish hidden posts with Hugo.
 
             -
 
             - This demo includes two public posts below but also hides [another post](waldo), visible only for visitors possessing the secret URL.
+
+            -
 
             - See [the documentation](https://roneo.org/en/hugo-hidden-posts/) for details
 
