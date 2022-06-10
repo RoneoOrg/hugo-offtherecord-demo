@@ -1,0 +1,14 @@
+image: registry.gitlab.com/pages/hugo/hugo_extended:0.87.0
+# The theme OffTheRecord requires Hugo extended > 0.82
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+pages:
+  before_script:
+  - apk update && apk add git
+  script:
+  - hugo --cleanDestinationDir
+  artifacts:
+    paths:
+    - public
